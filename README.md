@@ -1,1 +1,0 @@
-# web_devlopment_practice

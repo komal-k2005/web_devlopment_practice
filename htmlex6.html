@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        div{
+            background-color: teal;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            visibility:visible;
+        }
+
+    </style>
+    <script type="text/javascript">
+        function showdiv(){
+            document.getElementById("d1").style.visibility="visible";
+        }
+
+        function hidediv(){
+            document.getElementById("d1").style.visibility="hidden";
+        }
+    </script>
+</head>
+<body>
+    <div id="d1">
+        <h1>Abc.com</h1>
+        <hr>
+        <p>This is Test Line</p>
+    </div>
+    <button onclick="showdiv()">Show</button>
+    <button onclick="hidediv()">Hide</button>
+</body>
+</html>

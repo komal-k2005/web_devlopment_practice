@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>
+html example 8
+        </title>
+       
+            <style>
+            #d1{
+                position: relative;
+                background-color: blueviolet;
+                width: 150px;
+                height: 150px;
+                animation: a1 1s;
+                animation-iteration-count: infinite;
+                animation-direction:alternate;
+            
+            }
+            #d2{
+                position: relative;
+                background-color: blueviolet;
+                width: 150px;
+                height: 150px;
+                animation: a2 1s;
+                animation-iteration-count: infinite;
+                animation-direction: reverse;
+            }
+@keyframes a1{
+    from{
+        left:0% ;
+        background-color: blueviolet;
+    }
+    to{
+        left: 90%;
+        background-color: brown;
+    }
+    
+
+}
+@keyframes a2{
+    from{left: 0%;
+        background-color: blueviolet;
+    }
+    to{left: 90%;
+        background-color: brown;
+    }
+}
+        </style>
+    </head>
+    <body>
+<div id="d1">
+
+</div>
+<div id="d2">
+
+</div>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .row{
+            padding: 50px;
+           background-color: brown;
+           width: fit-content;
+          
+
+        }
+        .col{
+            background-color: rgb(42, 165, 91);
+            height: 100px;
+            width: 100px;
+            transition: transform 10s;
+        }
+        .row:hover .col {
+           
+            transform: rotate(360deg);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</body>
+</html>

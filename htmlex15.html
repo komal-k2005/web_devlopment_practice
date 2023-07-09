@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .d1{
+            text-align: center;
+        }
+        .d1 .col {
+           background-image: url("images/pr.jpg");
+           background-size: 100% 100%;
+           height: 550px;
+           animation: a1 10s;
+           animation-iteration-count: infinite;
+           animation-direction: alternate;
+        }
+        .d5{
+            margin: 30px;
+        }
+        .d5 .info{
+            text-align: justify;
+            width: 100%;
+        }
+        @keyframes a1 {
+            0%{
+                background-image: url("images/pr.jpg");
+            }
+            50%{
+                background-image: url("images/pr0.jpg");
+            }
+           100%{
+                background-image: url("images/prr.jpg");
+            }
+            
+        }
+        .d2{
+            text-align: center;
+            background-color: #aaa;
+        }
+        .d2 p{
+            margin: 20px;
+            text-align: center;
+            display: inline-block;
+        }
+        .d2 a{
+            text-decoration: none;
+            
+            color: black;
+           
+        }
+        .d3{
+            margin:30px;
+
+        }
+        .d3 .col{
+            margin: 10px;
+            float: left;
+            text-align: justify;
+            width: 45%;
+            
+        }
+        
+        .d3 img{
+            width: 100%;
+            height: 100%;
+        }
+       .d4{
+        clear: both;
+        margin: 30px;
+        display: inline-block;
+       }
+       .d4 .col{
+        width: 30%;
+        margin: 10px;
+        display: inline-block;
+       }
+       .d4 .col img{
+
+        height: 200px;
+       }
+         
+        
+@media screen and(max-width:600) {
+    .d1 .col{
+        width: 300px;
+    }
+    .d3 .col{
+        width: 100%;
+        
+    }
+    .d4 .col{
+        width: 100%;
+        display: inline-block;
+    }
+    
+    
+}         
+    </style>
+</head>
+<body>
+    <div class="d1">
+        <div class="col">
+            <h1>hexaware.com</h1>
+        </div>
+        
+    </div>
+    <div class="d2">
+    <div class="col">
+       <p><a href="#">Home</a></p>
+       <p><a href="#">Menu1</a></p>
+       <p><a href="#">Menu2</a></p>
+       <p><a href="#">Menu3</a></p>
+    </div>
+    </div>
+    <div class="d3">
+        <div class="col">
+<img src="images/s.jpg">
+        </div>
+        <div class="col">
+            <h3>
+                Services
+            </h3>
+            <p>
+                Application Development and Maintenance: Hexaware helps businesses develop, enhance, and maintain custom software applications to meet specific business requirements. They provide services for various technologies and platforms.
+
+Enterprise Solutions: Hexaware offers enterprise resource planning (ERP) solutions, customer relationship management (CRM) systems, and other enterprise-level software solutions to streamline business operations and improve efficiency.
+
+Digital Transformation: Hexaware assists businesses in their digital transformation journey by leveraging emerging technologies such as artificial intelligence (AI), machine learning (ML), robotic process automation (RPA), and cloud computing.
+
+Quality Assurance and Testing: Hexaware provides comprehensive testing services to ensure the quality, reliability, and security of software applications. This includes functional testing, performance testing, security testing, and test automation.
+
+Infrastructure Management Services: Hexaware offers infrastructure management services to help businesses optimize their IT infrastructure, including server management, network management, data center services, and cloud infrastructure management.
+
+Business Process Services: Hexaware provides business process outsourcing (BPO) services to handle various back-office operations, including finance and accounting, human resources, procurement, and supply chain management.
+            </p>
+        </div>
+    </div>
+    <div class="d4">
+        
+        <div class="col">
+            <img src="images/s1.jpg">
+            <h3>Application Services.</h3></div>
+          <div class="col"> 
+            <img src="images/s2.jpg"> <h3>Cloud Services.</h3></div>
+            <div class="col">
+                <img src="images/s3.jpg">
+                 <h3>Business Process Services.</h3></div>
+                <div class="col">
+                    <img src="images/s4.jpg">
+                    <h3>Customer Experience Services.</h3></div>
+                    <div class="col">
+                        <img src="images/s5.jpg">
+                        <h3>Cyber Security Resilience Services.</h3></div>
+                        <div class="col">
+                            <img src="images/s6.jpg">
+                            <h3> Data Analytics Services.</h3>
+        </div>
+    </div>
+    <div class="d5">
+        
+         <div class="img">
+                <img src="images/pr1.jpg" alt="" srcset="">
+            </div>
+            <div class="info">
+            <h3>Alexandra Brooks</h3>
+            <p>Position: Senior Software Engineer
+                Expertise: Alexandra specializes in full-stack web development and has extensive experience in building scalable and responsive applications. She excels in programming languages such as JavaScript, Python, and Java.
+                Achievements: Alexandra has been recognized for her exceptional problem-solving skills and innovative thinking. She has successfully led multiple high-profile projects and delivered solutions that have significantly improved operational efficiency.</p>
+        
+        </div>
+           <!--  <div class="img">
+                <img src="images/pr2.jpg" alt="" srcset="">
+            </div>
+            <div class="info">
+                <h3>Olivia Foster</h3>
+                <p>Position: Business Analyst
+                    Expertise: Olivia has a strong background in business analysis and requirements gathering. She possesses excellent communication skills and is adept at translating business needs into technical specifications. Olivia is proficient in conducting feasibility studies, process modeling, and gap analysis.
+                    Achievements: Olivia has played a crucial role in driving successful business process reengineering initiatives. Her analytical acumen and attention to detail have resulted in optimized workflows, streamlined operations, and cost savings for the organization.</p>
+            </div>
+        
+       
+           <div class="img">
+                <img src="images/pr3.jpg" alt="" srcset="">
+            </div>
+            <div class="info">
+                <h3>
+                    Isabella Mitchell
+
+                </h3>
+                <p>Position: Data Scientist
+                    Expertise: Isabella is a skilled data scientist with expertise in statistical analysis, machine learning, and predictive modeling. She has a solid foundation in programming languages such as R and Python and is proficient in data visualization techniques.
+                    Achievements: Isabella has successfully developed and implemented data-driven solutions that have helped clients gain actionable insights and make informed business decisions. Her work has contributed to improving customer satisfaction and increasing revenue for Hexaware's clients.</p>
+            
+        </div>
+        
+            <div class="img"><img src="images/pr4.jpg" alt="" srcset=""></div>
+            <div class="info">
+                <h3>
+                    Sophia Davis
+                </h3>
+                <p>Position: Project Manager
+                    Expertise: Sophia is an experienced project manager with a track record of successfully leading cross-functional teams and delivering projects on time and within budget. She is skilled in project planning, risk management, and stakeholder communication.
+                    Achievements: Sophia has received accolades for her exceptional project management skills and her ability to effectively navigate complex project requirements. She has consistently delivered high-quality solutions that meet client expectations while ensuring the efficient utilization of resources.</p>
+            </div>
+        
+        
+            <div class="img"><img src="images/pr5.jpg" alt="" srcset=""></div>
+            <div class="info">
+                <h3>
+                    Emily Morgan
+                </h3>
+                <p>Position: UX/UI Designer
+                    Expertise: Emily is a creative and talented UX/UI designer with a keen eye for user-centered design principles. She has a deep understanding of user experience research, wireframing, prototyping, and visual design. Emily is proficient in tools like Adobe Creative Suite and Sketch.
+                    Achievements: Emily has been instrumental in designing intuitive and visually appealing user interfaces that enhance the overall user experience. Her designs have received positive feedback from clients and have contributed to increased user engagement and satisfaction.</p>
+            
+        </div>
+        
+            <div class="img"><img src="images/pr6.jpg" alt="" srcset=""></div>
+            <div class="info">
+                <h3>
+                    Emily Patel
+                </h3>
+                <p>Position: Cybersecurity Analyst
+                    Expertise: Ava is a skilled cybersecurity analyst with a strong focus on information security, vulnerability assessment, and risk management. She is experienced in conducting security audits, implementing security controls, and responding to security incidents.
+                    Achievements: Ava has played a critical role in ensuring the confidentiality, integrity, and availability of sensitive data and systems. She has successfully implemented robust security measures and protocols, mitigating potential risks and vulnerabilities for Hexaware and its clients.</p>
+           </div> 
+        
+-->
+    </div>
+</body>
+</html>
